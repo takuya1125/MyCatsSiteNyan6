@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.col-9 {
+    width: 900px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.col-3 {
+    width: 300px;
+    overflow: hidden;
+    padding: 5px;
+    float: left;
+}
+
+.hero {
+    width: 900px;
+    min-height: 290px;
+    background-image: url(hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding 0;
+}
+
+.menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: #ff4c4c;
+    color: aliceblue;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    padding: 5px;
+}
+
+nav li {
+    float: right;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    display: block;
+    transition: 0.5s:
+}
+
+nav a:hover {
+    background: #fff;
+    color: #ff4c4c;
+}
+
+.about {
+    text-align: center;
+}
+
+h2 {
+    color: #ff4c4c;
+}
+
+h3 {
+    color: #ff4c4c;
+}
+
+h1 {
+    width: 400px;
+    text-align: center;
+    float:left;
+    padding: 10px 0;
+}
+article1{
+    padding-top: 10px;
+}
+.article1 a {
+    text-decoration: none;
+    color: #ff4c4c;
+    padding: 5px;
+    display: block;
+    transition: 0.5s;
+    border: solid 1px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.article1 a:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+.article2 a {
+    text-decoration: none;
+    color: #ff4c4c;
+    padding: 5px;
+    display: block;
+    transition: 0.5s;
+    border: solid 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.article2 a:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+.article3 a {
+    text-decoration: none;
+    color: #ff4c4c;
+    padding: 5px;
+    display: block;
+    transition: 0.5s;
+    border: solid 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.article3 a:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+
